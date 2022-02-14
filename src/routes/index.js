@@ -12,7 +12,7 @@ export const router = new VueRouter({
     routes: [
       {
         //홈 화면을 바로 home 페이지로 리다이렉트
-        path: '/',
+        path: '/scheduler',
         redirect: '/home',
       },
       {

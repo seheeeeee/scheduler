@@ -4,17 +4,17 @@
       <ul>
         <li>
           <label for="todoItem" class="star">제목</label>
-          <input type="text" v-model="contents.todoItem" id="todoItem" 
+          <input type="text" v-model="contents.todoItem" id="todoItem" autocomplete="off"
           placeholder="무엇을 해야하나요?" required>
         </li>
         <li>
           <label for="category" class="star">분류</label>
-          <input type="text" v-model="contents.category" id="category"
+          <input type="text" v-model="contents.category" id="category" autocomplete="off"
           placeholder="예)일상, 건강, 취업 etc." required>
         </li>
         <li>
           <label for="deadline" class="star">마감</label>
-          <input type="date" v-model="contents.deadline" id="deadline" required>
+          <input type="date" v-model="contents.deadline" id="deadline" autocomplete="off" required>
         </li>
         <li>
           <label for="detail">내용</label>
